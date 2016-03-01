@@ -5,7 +5,7 @@ import {NgFor} from 'angular2/common';
 @Component({
     selector: 'my-app',
     
-    template: '<h1   *ngFor="#name of names"  >My First Angular 2 App,  {{name}} </h1>',
+    template: '<ul><li   *ngFor="#name of names"  >My First Angular 2 App,  {{name}} </li></ul>',
     
     directives :    [NgFor]
 })

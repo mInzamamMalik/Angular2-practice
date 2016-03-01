@@ -23,12 +23,12 @@ System.register(['angular2/core', 'angular2/common'], function(exports_1, contex
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.names = ['inzi', 'rehan', 'hassan', 'amna'];
+                    this.name = "this is a text";
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: '<ul><li   *ngFor="#name of names"  >My First Angular 2 App,  {{name}} </li></ul>',
+                        template: "\n    <input [value]=\"  'Hello, ' + name   \">\n    \n     ",
                         directives: [common_1.NgFor]
                     }), 
                     __metadata('design:paramtypes', [])
