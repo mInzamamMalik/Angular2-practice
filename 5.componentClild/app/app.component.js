@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/common'], function(exports_1, context_1) {
+System.register(['angular2/core', './childOne.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,15 @@ System.register(['angular2/core', 'angular2/common'], function(exports_1, contex
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1;
+    var core_1, childOne_component_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (common_1_1) {
-                common_1 = common_1_1;
+            function (childOne_component_1_1) {
+                childOne_component_1 = childOne_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -28,8 +28,8 @@ System.register(['angular2/core', 'angular2/common'], function(exports_1, contex
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <input [value]=\"  'Hello, ' + name   \">\n    \n     ",
-                        directives: [common_1.NgFor]
+                        template: "\n        <div>this is the component</div>            \n     ",
+                        directives: [childOne_component_1.ChildOneComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

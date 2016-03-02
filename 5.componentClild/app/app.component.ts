@@ -1,18 +1,17 @@
 import {Component} from 'angular2/core';
-import {NgFor} from 'angular2/common';
+import {ChildOneComponent} from './childOne.component';
+
+
 
 
 @Component({
     selector: 'my-app',
 
-    template:
-
-    `
-    <input [value]="  'Hello, ' + name   ">
-    
+    template:    `
+        <div>this is the component</div>            
      `,
 
-    directives: [NgFor]
+    directives: [ChildOneComponent]
 })
 
 
