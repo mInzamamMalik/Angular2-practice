@@ -8,7 +8,9 @@ import {ChildOneComponent} from './childOne.component';
     selector: 'my-app',
 
     template:    `
-        <div>this is the component</div>            
+        <div>this is a component </div>
+        
+        <child-one></child-one>           
      `,
 
     directives: [ChildOneComponent]

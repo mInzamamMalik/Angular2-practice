@@ -28,7 +28,7 @@ System.register(['angular2/core', './childOne.component'], function(exports_1, c
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n        <div>this is the component</div>            \n     ",
+                        template: "\n        <div>this is a component </div>\n        \n        <child-one></child-one>           \n     ",
                         directives: [childOne_component_1.ChildOneComponent]
                     }), 
                     __metadata('design:paramtypes', [])
