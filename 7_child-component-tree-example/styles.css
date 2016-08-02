@@ -1,0 +1,38 @@
+h1,h2,h3,h4,h5,h6 {
+  color: #369;
+  font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%
+}
+p{
+  font-size: 120%;
+  font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 2em;
+}
+
+
+.parent{
+  border: 3px solid red;
+  margin: 10px;
+  padding: 5px;
+}
+.child{
+  border: 3px solid green;
+  margin: 10px;
+  padding: 5px;                  
+}
+.sub-child{
+  border: 3px solid magenta;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;                 
+}
+
+          
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */
+
